@@ -1,10 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/HintText.cs">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../Week2B/Week2B Project/Assets/Scripts/TriggerDemo.cs">
     <Files>
-      <File FileName="Assets/Scripts/GameLogic.cs" Line="25" Column="2" />
-      <File FileName="../../../../Code Lab/CodeLabSummer2015/Assets/scripts/TomTagTRex.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/HintText.cs" Line="30" Column="58" />
+      <File FileName="../../Week2B/Week2B Project/Assets/Scripts/TriggerDemo.cs" Line="23" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

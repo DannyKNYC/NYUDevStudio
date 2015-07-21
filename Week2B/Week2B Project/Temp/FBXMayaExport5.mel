@@ -1,0 +1,23 @@
+print "Starting maya loading and fbx conversion \n";
+	
+if (`file -q -exists "/Users/dkim/Documents/NYU Summer 2015/Development Studio/DevelopmentStudio/Week2B/Week2B Project/Assets/cogWheel.ma"`)
+{		
+	file -o "/Users/dkim/Documents/NYU Summer 2015/Development Studio/DevelopmentStudio/Week2B/Week2B Project/Assets/cogWheel.ma";
+	FBXExportEmbeddedTextures -v false;
+	// FBXExportHardEdges -v true;
+	FBXExportApplyConstantKeyReducer -v false;
+	FBXExportShowUI -v false;
+
+	print "Before fbx export\n";
+	FBXExport -f "/Users/dkim/Documents/NYU Summer 2015/Development Studio/DevelopmentStudio/Week2B/Week2B Project/Temp/ExportedFBXFile.fbx";
+	print "after fbx export\n";
+}
+else
+	print "Could not open Maya file.";
+
+
+system ("rm \"/Users/dkim/Documents/NYU Summer 2015/Development Studio/DevelopmentStudio/Week2B/Week2B Project/Temp/CommandPipe\"");
+
+$donepipeKill = `fopen "/Users/dkim/Documents/NYU Summer 2015/Development Studio/DevelopmentStudio/Week2B/Week2B Project/Temp/SyncPipeKill" "w"`;
+fwrite $donepipeKill "Done";
+fclose $donepipeKill;
