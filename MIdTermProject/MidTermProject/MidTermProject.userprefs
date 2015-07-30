@@ -1,11 +1,10 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerMovement.cs">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../Week4A/Week4A/Assets/Scripts/PathInstantiate.cs">
     <Files>
-      <File FileName="../../../../../../Desktop/nyu_studio_summer2015-master/week3a/Assets/scripts/MoveRigidbody.cs" Line="12" Column="1" />
-      <File FileName="Assets/Scripts/DoorOpen.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/PlayerMovement.cs" Line="57" Column="1" />
-      <File FileName="../../../../../../Desktop/ShooterShoot/Assets/Scripts/Player.cs" Line="1" Column="1" />
+      <File FileName="../../Week4A/Week4A/Assets/Scripts/PathInstantiate.cs" Line="32" Column="3" />
+      <File FileName="../../Week4A/Week4A/Assets/Scripts/TenPrintPort.cs" Line="1" Column="1" />
+      <File FileName="../../Week4A/Week4A/Assets/Scripts/ProcGenDemo.cs" Line="35" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
