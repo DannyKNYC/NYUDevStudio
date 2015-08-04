@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\GridInstantiate.cs" />
+     <Compile Include="Assets\Scripts\NPC.cs" />
      <Compile Include="Assets\Scripts\PathInstantiate.cs" />
      <Compile Include="Assets\Scripts\ProcGenDemo.cs" />
      <Compile Include="Assets\Scripts\Regenerate.cs" />
